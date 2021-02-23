@@ -30,8 +30,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/naa7/SimpleTweet/blob/main/walkthrough1.gif' title='Video Walkthrough1' width='' alt='Video Walkthrough' />
-<img src='https://github.com/naa7/SimpleTweet/blob/main/walkthrough2.gif' title='Video Walkthrough2' width='' alt='Video Walkthrough' />
+<img src='https://github.com/naa7/SimpleTweet/blob/main/walkthrough.gif' title='Video Walkthrough1' width='' alt='Video Walkthrough' />
+
 
 ## Open-source libraries used
 
