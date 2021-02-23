@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvScreenName"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="3dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
         android:layout_toEndOf="@+id/ivProfileImage"
@@ -49,16 +49,16 @@
         android:id="@+id/divider"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_below="@+id/tvBody"
+        android:layout_below="@+id/retweet"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="0dp"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="5dp"
         android:background="?android:attr/listDivider" />
 
     <TextView
         android:id="@+id/tvTime"
-        android:layout_width="128dp"
-        android:layout_height="28dp"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="5dp"
@@ -76,5 +76,55 @@
         android:layout_toEndOf="@+id/tvScreenName"
         android:textSize="13sp"
         tools:text="username" />
+
+    <ImageButton
+        android:id="@+id/retweet"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/tvBody"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/imageButton5"
+        android:background="@null"
+        android:clickable="false"
+        app:srcCompat="@mipmap/retweet_foreground" />
+
+    <ImageButton
+        android:id="@+id/like"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/tvBody"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/retweet"
+        android:background="@null"
+        android:clickable="false"
+        app:srcCompat="@drawable/ic_home_twitter" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/tvBody"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="15dp"
+        android:background="@null"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@mipmap/reply_foreground" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/tvBody"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="58dp"
+        android:layout_toEndOf="@+id/like"
+        android:background="@null"
+        android:tint="#3E3D3D"
+        app:srcCompat="@drawable/ic_baseline_ios_share_24" />
 
 </RelativeLayout>
