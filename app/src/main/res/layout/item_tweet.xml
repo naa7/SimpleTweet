@@ -55,4 +55,26 @@
         android:layout_marginTop="5dp"
         android:background="?android:attr/listDivider" />
 
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="128dp"
+        android:layout_height="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:gravity="right"
+        android:textSize="12sp"
+        tools:text="59m" />
+
+    <TextView
+        android:id="@+id/tvTwitterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/tvScreenName"
+        android:textSize="13sp"
+        tools:text="username" />
+
 </RelativeLayout>
