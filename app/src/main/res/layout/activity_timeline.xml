@@ -20,6 +20,7 @@
             android:clipToPadding="false"
             android:fitsSystemWindows="true"
             android:minHeight="?attr/actionBarSize"
+            app:collapseIcon="@mipmap/ic_launcher_foreground"
             app:contentInsetLeft="0dp"
             app:contentInsetStart="5dp"
             app:layout_scrollFlags="scroll|enterAlways">
@@ -36,7 +37,7 @@
                 android:layout_centerVertical="true"
                 android:contentDescription="@string/app_name"
                 android:scaleType="centerInside"
-                app:srcCompat="@mipmap/twitter_logo">
+                app:srcCompat="@mipmap/twitter_logo_round">
 
             </ImageView>
 
